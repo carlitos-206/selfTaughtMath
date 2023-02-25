@@ -36,7 +36,7 @@ def multiVar_single_output(x,y):
   output = (x,y,( ((x-2)**2) + ((y-2)**2) + 2))
   print(output)
   
-  
+# This function has to run through each value of n -> n^2 -> O(n^2)
 def multiVar_n_output(n):
   for x in range(n):
     for y in range(n):
